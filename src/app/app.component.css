@@ -1,0 +1,43 @@
+header {
+    height: 50vh;
+}
+
+header .row:first-child {
+    height: 90%;
+} 
+
+h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+/* @media (min-width: 992px) and (max-width: 1200px) {
+    .nav-tile i {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav-tile i {
+        font-size: 4em;
+    }
+} */ 
+
+footer img {
+    height: 1.5em;
+    width: auto;
+}
+
+footer p {
+    color: #585858;
+}
+
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+

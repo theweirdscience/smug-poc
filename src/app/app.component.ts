@@ -6,5 +6,37 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  navButtons = [
+    {
+      label: "Dashboard",
+      iconClass: "fab fa-envira",
+      url: ""
+    }, {
+      label: "Profile",
+      iconClass: "fas fa-user-circle",
+      url: ""
+    }, {
+      label: "Settings",
+      iconClass: "fas fa-sliders-h",
+      url: ""
+    }, {
+      label: "Share",
+      iconClass: "fas fa-share-alt",
+      url: ""
+    }, {
+      label: "Expand",
+      iconClass: "fas fa-shopping-cart",
+      url: ""
+    }, {
+      label: "Something",
+      iconClass: "fas fa-question-circle",
+      url: ""
+    }
+  ];
+  
+  tile = [
+    {
+      navClass: "navButton"
+    }
+  ]
 }
