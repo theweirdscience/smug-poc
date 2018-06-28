@@ -1,27 +1,17 @@
 <div class="container">
-    <header class="row">
-        <div class="col">
-            <div class="row">
-                <div class="col">
-                    <!-- logo komt hier -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h1>Smart and Modular Unattended Garden</h1>
-                </div>
-            </div>
-        </div>
-    </header>
+    <tws-front-page-header class="front-page-header row justify-content-center"
+                           [headerImage]="headerImage"
+                           [headerLabel]="headerLabel">
+    </tws-front-page-header>
     <tws-nav-tiles class="row justify-content-center no-gutters"
-                   [buttons]="navButtons">
+                    [buttons]="navButtons">
     </tws-nav-tiles>
     <footer class="row justify-content-center">
         <div class="col-auto">
             <p>A product by 
                 <a href="https://www.theweirdscience.com"
-                   target="_blank"
-                   class="image-fluid">
+                    target="_blank"
+                    class="image-fluid">
                     <img src="../assets/logos/twslogo.png" 
                         alt="The Weird Science Logo" 
                         title="The Weird Science">    

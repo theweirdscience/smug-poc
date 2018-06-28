@@ -38,5 +38,16 @@ export class AppComponent {
     {
       navClass: "navButton"
     }
-  ]
+  ];
+
+  headerImage = {
+    src: "/assets/images/placeholder.png",
+    alt: "image1",
+    height: 300,
+    width: 300,
+    title: "Placeholder",
+  };
+  
+  headerLabel = "Smart and Modular Unattended Garden";
+  
 }

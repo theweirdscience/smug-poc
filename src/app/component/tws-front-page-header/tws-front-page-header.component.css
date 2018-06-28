@@ -1,0 +1,14 @@
+header {
+    height: 50vh;
+    padding-top: 10%;
+}
+
+header .row:first-child {
+    height: 90%;
+} 
+
+h1 {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #3d3d3d;
+}
