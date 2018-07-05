@@ -6,8 +6,17 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./tws-front-page-header.component.css']
 })
 export class TwsFrontPageHeaderComponent implements OnInit {
-  @Input() headerImage: any;
-  @Input() headerLabel: string;
+  @Input ()
+    headerImage: Object= {    
+    src: "src/assets/images/placeholder.png",
+    alt: "SMUG header logo",
+    title: "Placeholder",
+  };
+  
+  @Input ()
+    headerLabel: Object= {
+      label: "Smart and Modular Unattended Garden"
+  };
 
   constructor() { }
 
