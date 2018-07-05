@@ -1,0 +1,11 @@
+
+<nav class="col-12 col-lg-8">
+    <div class="row no-gutters">
+        <div class="text-center nav-tile col-md-2 col-12" *ngFor="let button of navButtons">
+            <a href="{{button?.url}}" title="{{button?.label}}">
+                <i [ngClass]="button?.iconClass"></i>
+                <div class="nav-label">{{button?.label}}</div>
+            </a>
+        </div>
+    </div>
+</nav>

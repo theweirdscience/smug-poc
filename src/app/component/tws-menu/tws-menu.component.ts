@@ -1,14 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
-// import { TwsTileButtonComponent } from '../tws-tile-button/tws-tile-button.component';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'tws-nav-tiles',
-  templateUrl: './tws-nav-tiles.component.html',
-  styleUrls: ['./tws-nav-tiles.component.css']
+  selector: 'tws-menu',
+  templateUrl: './tws-menu.component.html',
+  styleUrls: ['./tws-menu.component.css']
 })
-export class TwsNavTilesComponent implements OnInit {
-  @Input()
-  navButtons:Object= [ 
+export class TwsMenuComponent implements OnInit {
+  navButtons = [ 
     {
       label: "Dashboard",
       iconClass: "fab fa-envira",
@@ -33,13 +31,6 @@ export class TwsNavTilesComponent implements OnInit {
       label: "Something",
       iconClass: "fas fa-question-circle",
       url: ""
-    }
-  ];
-
-  @Input() 
-  button:Object = [
-    {
-      navClass: "navButtons"
     }
   ];
 
